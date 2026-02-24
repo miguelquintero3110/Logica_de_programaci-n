@@ -12,3 +12,5 @@ if multiplicacion > area:
     print("muy bien maquina asi tiene que ser mayor al area ")
 else:
     print("como lo hizo ")
+
+    Logica_de_programaci-n
