@@ -1,0 +1,34 @@
+@media (max-width: 640px) {
+    .cards-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 140px);
+        gap: 50px;
+    }
+
+    .product-card {
+        width: 140px;
+    }
+
+    .product-card img {
+        width: 140px;
+        height: 140px;
+    }
+        .valor {
+            font-weight: bold;
+            font-size: var(--sm);
+            margin-top: 16px;
+            margin-bottom: 4px;
+        }
+    
+        .camisa {
+            font-size: 15px;
+            color: var(--very-light-pink);
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+                .product-info figure img {
+                    width: 35px;
+                    height: 35px;
+                    margin-left: -60px;
+                }
+}
