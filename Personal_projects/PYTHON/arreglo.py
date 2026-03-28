@@ -26,5 +26,3 @@ for n in range(students):
     notas_x1=total_notas[n]
     promedio = sum(notas_x1) / len(notas_x1)
     print(f"Estudiante {n+1} tiene las notas: {notas_x1} y su promedio es: {promedio}")
-    print("este es un vistazo a ver si funciona git")
-    
