@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Absolute dentro de Relative</title>
+    <style>
+        .contenedor {
+            position: relative;
+            /* referencia */
+            width: 300px;
+            height: 200px;
+            background: lightgray;
+            margin: 30px;
+            border: 2px solid black;
+        }
+
+        .caja {
+            width: 80px;
+            height: 80px;
+            background: tomato;
+            color: white;
+            font-weight: bold;
+            text-align: center;
+            line-height: 80px;
+        }
+
+        .caja-absolute {
+            position: absolute;
+            /* se posiciona RELATIVO al contenedor */
+            top: 20px;
+            right: 20px;
+            background: royalblue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="contenedor">
+        <div class="caja">Normal</div>
+        <div class="caja caja-absolute">ABS</div>
+    </div>
+</body>
+
+</html>

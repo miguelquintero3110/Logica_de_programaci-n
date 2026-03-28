@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <title>BotaFora</title>
+    <style>
+        :root {
+            --very-light-pink: #C7C7C7;
+            --text-input-field: #F7F7F7;
+            --hospital-green: #ACD9B2;
+            --withe: #FFFFFF;
+            --black: #000000;
+            --sm: 18px;
+            --md: 22px;
+            --lg: 30px;
+        }
+
+        .nav-1 {
+            width: 100vw;
+            height: 10vh;
+            background-color: #ffffff;
+            box-shadow: 10px 10px 100px -3px#C7C7C7;
+            left: 0;
+            top: 0;
+            position: fixed;
+            z-index: 6;
+        }
+
+        .logo-nav {
+            margin: 14px;
+            width: 280px;
+            margin-bottom: 48px;
+            justify-self: left;
+        }
+
+        body {
+            font-family: "Quicksand", sans-serif;
+        }
+        .cards-container{
+            display: grid;
+            grid-template-columns: repeat(5, 240px);
+            column-gap: 26px;
+            row-gap: 85px;
+            place-content: center;
+            transform: translatey(130px);
+            
+        }
+        .product-card{
+            width: 240px;
+        }
+        .product-card img{
+            width: 240px;
+            height: 240px;
+            border-radius: 20px;
+            object-fit: cover;
+        }
+        .product-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 12px;
+        }
+       .product-info p {
+            width: 150px;
+        } 
+        .valor{
+            font-weight: bold;
+            font-size: var(--md);
+            margin-top: 0;
+            margin-bottom: 4px;
+        }
+        .camisa{
+            font-size: var(--sm);
+            color: var(--very-light-pink);
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+        .product-info figure img {
+            width: 35px;
+            height: 35px;
+            margin-right: -15px;
+        }
+    </style>
+    <link rel="stylesheet" href="cel-class6.css">
+</head>
+    <body>
+        <nav class="nav-1">
+            <img src="/Curso Práctico de Frontend Developer/curso-frontend-developer-practico-main/logos/logo_bota_fora.svg"
+                alt="logo" class="logo-nav">
+        </nav>
+        <section class="main-container">
+            <div class="cards-container">
+                <div class="product-card">
+                    <img src="https://assets.adidas.com/images/w_600,f_auto,q_auto/f24d1c69aa8a42a79b70aa983d5e8ec3_faec/Camiseta_de_local_autentica_del_Real_Madrid_temporada_2025-2026_Blanco_JV5918_db01_laydown.tiff.jpg"
+                        alt="">
+                    <div class="product-info">
+                        <div>
+                            <p class="valor">$120,00</p>
+                            <p class="camisa">Real Madrid T-shirt</p>
+                        </div>
+                        <figure>
+                            <img src="/Curso Práctico de Frontend Developer/curso-frontend-developer-practico-main/icons/bt_add_to_cart.svg"
+                                alt="">
+                        </figure>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="https://theshoppies.pk/wp-content/uploads/2023/05/FC-Barcelona-2025-26-Home-Jersey.jpg" alt="">
+                    <div class="product-info">
+                        <div>
+                            <p class="valor">$120,00</p>
+                            <p class="camisa">Barcelona T-shirt</p>
+                        </div>
+                        <figure>
+                            <img src="/Curso Práctico de Frontend Developer/curso-frontend-developer-practico-main/icons/bt_add_to_cart.svg"
+                                alt="">
+                        </figure>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="https://1216451790.rsc.cdn77.org/temp/1750845868_23b00626c91974f8c200f99fbce9de13.jpg" alt="">
+                    <div class="product-info">
+                        <div>
+                            <p class="valor">$120,00</p>
+                            <p class="camisa">Bayern Munich T-shirt</p>
+                        </div>
+                        <figure>
+                            <img src="/Curso Práctico de Frontend Developer/curso-frontend-developer-practico-main/icons/bt_add_to_cart.svg"
+                                alt="">
+                        </figure>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="https://cdn.media.amplience.net/i/frasersdev/37872208_o?fmt=auto&upscale=false&w=767&h=767&sm=scaleFit&$h-ttl$"
+                        alt="">
+                    <div class="product-info">
+                        <div>
+                            <p class="valor">$120,00</p>
+                            <p class="camisa">Liverpool T-shirt</p>
+                        </div>
+                        <figure>
+                            <img src="/Curso Práctico de Frontend Developer/curso-frontend-developer-practico-main/icons/bt_add_to_cart.svg"
+                                alt="">
+                        </figure>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="https://www.torshovsport.no/pub_images/original/121145.jpg" alt="">
+                    <div class="product-info">
+                        <div>
+                            <p class="valor">$120,00</p>
+                            <p class="camisa">Manchester CityT-shirt</p>
+                        </div>
+                        <figure>
+                            <img src="/Curso Práctico de Frontend Developer/curso-frontend-developer-practico-main/icons/bt_add_to_cart.svg"
+                                alt="">
+                        </figure>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="https://store.juventus.com/images/juventus/products/large/JU25D01.webp" alt="">
+                    <div class="product-info">
+                        <div>
+                            <p class="valor">$120,00</p>
+                            <p class="camisa">Juventus-shirt</p>
+                        </div>
+                        <figure>
+                            <img src="/Curso Práctico de Frontend Developer/curso-frontend-developer-practico-main/icons/bt_add_to_cart.svg"
+                                alt="">
+                        </figure>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="https://acdn-us.mitiendanube.com/stores/001/409/577/products/quarta-camisa-paris-saint-germain-fourth-iv-24-25-jordan-azul-masculino-torcedor-authentic-oficial-futebol-psg-ligue1-champions-league-marquinhos-c27797c1ca9eb485a717402422720450-480-0.png"
+                        alt="">
+                    <div class="product-info">
+                        <div>
+                            <p class="valor">$120,00</p>
+                            <p class="camisa">Paris Saint-Germain-shirt</p>
+                        </div>
+                        <figure>
+                            <img src="/Curso Práctico de Frontend Developer/curso-frontend-developer-practico-main/icons/bt_add_to_cart.svg"
+                                alt="">
+                        </figure>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="https://assets.adidas.com/images/w_600,f_auto,q_auto/8b8bf2d9a83a437d8396f125bd73e7fb_9366/camiseta_Local_Boca_Juniors_25-26_Azul_JJ4298_01_laydown.jpg"
+                        alt="">
+                    <div class="product-info">
+                        <div>
+                            <p class="valor">$120,00</p>
+                            <p class="camisa">Boca Juniors-shirt</p>
+                        </div>
+                        <figure>
+                            <img src="/Curso Práctico de Frontend Developer/curso-frontend-developer-practico-main/icons/bt_add_to_cart.svg"
+                                alt="">
+                        </figure>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="https://assets.adidas.com/images/w_600,f_auto,q_auto/b93e37411f8448d99fcde6d41a26c7db_9366/Camiseta_de_local_River_Plate_25-26_Blanco_JI7073_01_laydown.jpg"
+                        alt="">
+                    <div class="product-info">
+                        <div>
+                            <p class="valor">$120,00</p>
+                            <p class="camisa">River Plate-shirt</p>
+                        </div>
+                        <figure>
+                            <img src="/Curso Práctico de Frontend Developer/curso-frontend-developer-practico-main/icons/bt_add_to_cart.svg"
+                                alt="">
+                        </figure>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="https://img4.dhresource.com/webp/m/0x0/f3/albu/ys/t/23/7a6f87d3-3abb-4d27-aade-ec0d9da12055.jpg"
+                        alt="">
+                    <div class="product-info">
+                        <div>
+                            <p class="valor">$120,00</p>
+                            <p class="camisa">Flamengo-shirt</p>
+                        </div>
+                        <figure>
+                            <img src="/Curso Práctico de Frontend Developer/curso-frontend-developer-practico-main/icons/bt_add_to_cart.svg"
+                                alt="">
+                        </figure>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="https://cdn11.bigcommerce.com/s-rvzdtxwh2i/images/stencil/590x590/products/4214/22916/Screen_Shot_2024-03-07_at_10.03.48__18891__88998__85346__43466__46942__28473__22967__38306.1752617515.png?c=1"
+                        alt="">
+                    <div class="product-info">
+                        <div>
+                            <p class="valor">$120,00</p>
+                            <p class="camisa">Palmeiras-shirt</p>
+                        </div>
+                        <figure>
+                            <img src="/Curso Práctico de Frontend Developer/curso-frontend-developer-practico-main/icons/bt_add_to_cart.svg"
+                                alt="">
+                        </figure>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="https://tiendaverde.com.co/cdn/shop/files/AN-EC0703.jpg?v=1737132271&width=530" alt="">
+                    <div class="product-info">
+                        <div>
+                            <p class="valor">$120,00</p>
+                            <p class="camisa">Atlético Nacional-shirt</p>
+                        </div>
+                        <figure>
+                            <img src="/Curso Práctico de Frontend Developer/curso-frontend-developer-practico-main/icons/bt_add_to_cart.svg"
+                                alt="">
+                        </figure>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="https://assets.adidas.com/images/w_600,f_auto,q_auto/3da99393e5294a1fab1681dd60425ac1_9366/Camiseta_Local_Millonarios_FC_2025_Azul_KB3185_01_laydown.jpg"
+                        alt="">
+                    <div class="product-info">
+                        <div>
+                            <p class="valor">$120,00</p>
+                            <p class="camisa">Millonarios-shirt</p>
+                        </div>
+                        <figure>
+                            <img src="/Curso Práctico de Frontend Developer/curso-frontend-developer-practico-main/icons/bt_add_to_cart.svg"
+                                alt="">
+                        </figure>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="https://www.americadecali.com/cdn/shop/files/amc-home-maillot-2024-n-2.webp?v=1731955576&width=600"
+                        alt="">
+                    <div class="product-info">
+                        <div>
+                            <p class="valor">$120,00</p>
+                            <p class="camisa">América de cali-shirt</p>
+                        </div>
+                        <figure>
+                            <img src="/Curso Práctico de Frontend Developer/curso-frontend-developer-practico-main/icons/bt_add_to_cart.svg"
+                                alt="">
+                        </figure>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="https://camisetasfutbolbaloncesto.com/cdn/shop/files/IMG-7526_6f914ed9-3803-48a1-bc11-5490200924b4.jpg?v=1740311674&width=1946"
+                        alt="">
+                    <div class="product-info">
+                        <div>
+                            <p class="valor">$120,00</p>
+                            <p class="camisa">Racing Club-shirt</p>
+                        </div>
+                        <figure>
+                            <img src="/Curso Práctico de Frontend Developer/curso-frontend-developer-practico-main/icons/bt_add_to_cart.svg"
+                                alt="">
+                        </figure>
+                    </div>
+              </div>
+            </div>
+        </section>
+    </body>

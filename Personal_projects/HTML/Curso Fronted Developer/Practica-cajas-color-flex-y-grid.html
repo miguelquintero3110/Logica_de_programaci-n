@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #lol {
+            display: grid;
+            grid-template-columns: repeat(2, auto);
+            gap: 20px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #lol div{
+            display: grid;
+            height: 100px;
+            width: 200px;
+            background: linear-gradient(to right, tomato 33.3%, red 33.3% 66.6%, skyblue 66.6%);
+            padding: 40px;
+            box-sizing: border-box;
+            border: 1px solid black;
+            margin: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+        }
+        #pet {
+            position: relative;
+            right: -100px;
+            bottom: 100px;
+            z-index: 2;
+        }
+        .l1 {
+            z-index: 1;
+        }
+        .l2 {
+            z-index: 5;
+        }
+        p:hover{
+            color: rgb(0, 255, 255);
+        }
+    </style>
+</head>
+
+<body>
+    <section id="lol">
+        <div class="l2">
+            <p>lol</p>
+        </div>
+        <div class="l1">
+            <p>lolito</p>
+        </div>
+        <div id="pet">
+            <p>lola</p>
+        </div>
+    </section>
+</body>
+
+</html>

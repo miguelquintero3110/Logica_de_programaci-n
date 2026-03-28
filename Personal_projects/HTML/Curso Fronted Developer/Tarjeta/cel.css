@@ -1,0 +1,211 @@
+@media (max-width: 430px) {
+   body{
+     background: rgb(21, 21, 21);
+   }
+     section {
+       position: relative;
+       width: 100%;
+       display: flex;
+       justify-content: center;
+       bottom: -60px;
+     }
+  
+     .card {
+       width: 400px;
+       height: 700px;
+       background: rgb(255, 255, 255);
+       border-radius: 40px;
+       overflow: hidden;
+       box-shadow: 0px 10px 10px 5px rgba(255, 255, 255, 0.16);
+     }
+  
+     .c2 {
+       margin-top: -55px;
+       width: 390px;
+       height: 260px;
+       background: rgb(141, 128, 133);
+       border-radius: 40px 40px 0 0;
+       overflow: hidden;
+     }
+  
+     .circulo {
+       width: 160px;
+       height: 160px;
+       margin-top: -80px;
+       border-radius: 50%;
+       border: 5px solid white;
+       position: absolute;
+       top: 160px;
+       left: 50%;
+       transform: translateX(-50%);
+       z-index: 10;
+       object-fit: cover;
+       overflow: hidden;
+     }
+  
+     .circulo img {
+       width: 100%;
+       height: 100%;
+       object-fit: cover;
+       scale: 1.2;
+       translate: 20px;
+     }
+  
+     .c3 {
+       margin-top: -20px;
+       width: 390px;
+       height: 233px;
+       background: rgb(41, 42, 42);
+     }
+  
+     #titulo {
+       margin: 0;
+       display: flex;
+       color: azure;
+       font-size: 50px;
+       font-weight: 900;
+       font-family: initial;
+       position: relative;
+       margin-top: 50px;
+     }
+  
+     h1 {
+       margin: 0;
+       display: flex;
+       color: azure;
+       font-size: 25px;
+       font-weight: 900;
+       font-family: initial;
+       position: relative;
+       justify-content: center;
+       margin-top: 80px;
+     }
+  
+     h2 {
+       margin: 0;
+       display: flex;
+       color: rgb(168, 168, 168);
+       font-size: 22px;
+       font-weight: 400;
+       font-family: initial;
+       justify-content: center;
+     }
+  
+     h3 {
+       margin: 0;
+       display: flex;
+       color: rgb(168, 168, 168);
+       font-size: 19px;
+       font-weight: 400;
+       font-family: initial;
+       justify-content: center;
+     }
+  
+     .p1 {
+       margin: 0;
+       display: flex;
+       color: azure;
+       font-size: 30px;
+       font-weight: 900;
+       font-family: initial;
+       position: absolute;
+       margin-top: 25px;
+       margin-left: 15px;
+       text-decoration: none;
+       transition-duration: 500ms;
+  
+     }
+  
+     .p1:hover {
+       color: rgb(141, 128, 133);
+       font-size: 35px;
+       transition-duration: 200ms;
+     }
+  
+     .p2:hover {
+       color: rgb(141, 128, 133);
+       font-size: 35px;
+       transition-duration: 200ms;
+     }
+  
+     .p2 {
+       margin: 0;
+       display: flex;
+       color: azure;
+       font-size: 30px;
+       font-weight: 900;
+       font-family: initial;
+       position: absolute;
+       margin-top: 25px;
+       right: 0;
+       margin-right: 15px;
+       text-decoration: none;
+       transition-duration: 500ms;
+     }
+  
+     .c4 {
+       display: grid;
+       margin-top: 0px;
+       width: 390px;
+       height: 110px;
+       background: rgb(11, 11, 11);
+       z-index: 3;
+       display: grid;
+       grid-template-columns: repeat(2, auto);
+     }
+  
+     .number {
+       display: flex;
+       color: azure;
+       font-size: 30px;
+       font-weight: 900;
+       font-family: initial;
+       position: relative;
+       justify-content: center;
+       margin-top: 20px;
+     }
+  
+     .label {
+       display: flex;
+       color: azure;
+       font-size: 25px;
+       font-weight: 900;
+       font-family: initial;
+       position: relative;
+       justify-content: center;
+     }
+  
+     .c5 {
+       display: flex;
+       justify-content: center;
+       z-index: 5;
+       color: rgb(189, 189, 189);
+       font-size: 60px;
+       font-weight: 900;
+       font-family: initial;
+       border: none;
+       cursor: pointer;
+       text-decoration: none;
+       transition-duration: 500ms;
+     }
+  
+     .c5:hover {
+       font-size: 65px;
+       transition-duration: 200ms;
+     }
+  
+     .fondo-c5 {
+       display: flex;
+       align-items: center;
+       right: -5px;
+       margin-top: -5px;
+       width: 390px;
+       height: 110px;
+       background: rgb(0, 0, 0);
+       border-radius: 0 0 40px 40px;
+     }
+  
+     .fondo-c5:hover {
+       background: rgb(19, 19, 19);
+     }
+}

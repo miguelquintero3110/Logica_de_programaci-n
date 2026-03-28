@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background: rgb(21, 21, 21);
+        }
+        section{
+            position: relative;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            bottom: -60px;
+        }
+        .card{
+            width: 700px;
+            height: 800px;
+            background: rgb(97, 55, 55);
+            border-radius: 40px;
+            overflow: hidden;
+            box-shadow:0px 10px 10px 5px rgba(255, 255, 255, 0.16);
+        }
+        .c2{
+            margin-top: -57px;
+            width: 690px;
+            height: 280px;
+            background: rgb(141, 128, 133);
+            border-radius: 40px 40px 0 0;
+            overflow: hidden;
+        }
+        .circulo{
+            width: 200px;            
+            height: 200px;
+            margin-top: -80px;
+            border-radius: 50%;       
+            border: 5px solid white; 
+            position: absolute;      
+            top: 160px;              
+            left: 50%;               
+            transform: translateX(-50%); 
+            z-index: 10;            
+            object-fit: cover;
+            overflow: hidden;
+        }
+        .circulo img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            scale: 1.2;
+            translate: 20px;
+        }
+        .c3{
+            margin-top: 0px;
+            width: 690px;
+            height: 300px;
+            background: rgb(41, 42, 42);
+        }
+        #titulo{
+            margin: 0;
+            display: flex;
+            color: rgb(245, 235, 240);
+            font-size: 85px;
+            font-weight: 900;
+            font-family: initial;
+            position: relative;
+            margin-top: 40px;
+        }
+        h1 {
+            margin: 0;
+            display: flex;
+            color: azure;
+            font-size: 40px;
+            font-weight: 900;
+            font-family: initial;
+            position: relative;
+            justify-content: center;
+            margin-top: 90px;
+        }
+        h2 {
+            margin: 0;
+            display: flex;
+            color: rgb(168, 168, 168);
+            font-size: 30px;
+            font-weight: 400;
+            font-family: initial;
+            justify-content: center;
+        }
+        h3 {
+            margin: 0;
+            display: flex;
+            color: rgb(168, 168, 168);
+            font-size: 25px;
+            font-weight: 400;
+            font-family: initial;
+            justify-content: center;
+        }
+        .p1{
+            margin: 0;
+            display: flex;
+            color: azure;
+            font-size: 45px;
+            font-weight: 900;
+            font-family: initial;
+            position: absolute;
+            margin-top: 30px;
+            margin-left: 15px;
+            text-decoration: none;
+            transition-duration: 500ms;
+            
+        }
+        .p1:hover{
+            color: rgb(141, 128, 133);
+            font-size: 50px;
+            transition-duration: 200ms;
+        }
+        .p2:hover{
+            color: rgb(141, 128, 133);
+            font-size: 50px;
+            transition-duration: 200ms;
+        }
+        .p2{
+            margin: 0;
+            display: flex;
+            color: azure;
+            font-size: 45px;
+            font-weight: 900;
+            font-family: initial;
+            position: absolute;
+            margin-top: 30px;
+            right: 0;
+            margin-right: 15px;
+            text-decoration: none;
+            transition-duration: 500ms;
+        }
+        .c4{
+            display: grid;
+            margin-top: 0px;
+            width: 690px;
+            height: 110px;
+            background: rgb(11, 11, 11);
+            z-index: 3;
+            display: grid;
+            grid-template-columns: repeat(2, auto);
+        }
+        .number {
+            display: flex;
+            color: azure;
+            font-size: 30px;
+            font-weight: 900;
+            font-family: initial;
+            position: relative;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .label {
+            display: flex;
+            color: azure;
+            font-size: 25px;
+            font-weight: 900;
+            font-family: initial;
+            position: relative;
+            justify-content: center;
+        }
+        .c5{
+            display: flex;
+            justify-content: center;
+            z-index: 5;
+            color: rgb(189, 189, 189);
+            font-size: 60px;
+            font-weight: 900;
+            font-family: initial;
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+            transition-duration: 500ms;
+        }
+        .c5:hover{
+            font-size: 65px;
+            transition-duration: 200ms;
+        }
+        .fondo-c5{
+            display: flex;
+            align-items: center;
+            right: -5px;
+            margin-top: -5px;
+            width: 690px;
+            height: 110px;
+            background: rgb(0, 0, 0);
+            border-radius: 0 0 40px 40px;
+        }
+        .fondo-c5:hover{
+            background: rgb(19, 19, 19);
+        }
+    </style>
+    <link rel="stylesheet" href="cel.css">
+</head>
+<body>
+    <section>
+        <div class="card">
+            <section>
+                <div class="c2">
+                    <h1 id="titulo">BIENVENIDO</h1>
+                   <div class="circulo">
+                     <img src="WhatsApp Image 2025-08-18 at 1.30.44 AM.jpeg" alt="">
+                   </div> 
+                </div>
+            </section>
+            <section>
+                <div class="c3">
+                    <h1>Miguel Angel Quintero Cardenas</h1>
+                    <h2>Frontend Developer</h2>
+                    <h3 style="font-family: sans-serif;"> 
+                        <img src="https://flagcdn.com/w20/co.png" alt="Colombia"
+                        style="width: 22px; height: auto; vertical-align: middle; margin-right: 6px;">Colombia</h3>
+                    <a href="https://www.youtube.com/@miguellol4497/posts" target="_blank" class="p1">View projects</a>
+                    <a href="https://www.youtube.com/@miguellol4497/playlists" target="_blank" class="p2">Send email</a>
+                </div>
+            </section>
+            <section>
+                <div class="c4" >
+                    <div>
+                     <div class="number">602</div>
+                     <div class="label">Followers</div>
+                    </div>
+                    <div>
+                     <div class="number">330</div>
+                     <div class="label">Follows</div>
+                    </div>
+                </div>
+            </section>
+            <section class="fondo-c5">
+                    <a href="https://www.youtube.com/@miguellol4497" target="_blank" class="c5">Follow</a>
+            </section>
+        </div>
+    </section>
+</body>
+</html>

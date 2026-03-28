@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <title>BotaFora</title>
+    <style>
+        :root {
+            --very-light-pink: #C7C7C7;
+            --text-input-field: #F7F7F7;
+            --hospital-green: #ACD9B2;
+            --withe: #FFFFFF;
+            --black: #000000;
+            --sm: 18px;
+            --md: 22px;
+            --lg: 30px;
+        }
+        .nav-1 {
+            width: 100vw;
+            height: 10vh;
+            background-color: #ffffff;
+            box-shadow: 10px 10px 100px -3px#C7C7C7;
+            left: 0;
+            top: 0;
+            position: fixed;
+            z-index: 6;
+        }
+        .logo-nav {
+            margin: 14px;
+            width: 280px;
+            margin-bottom: 48px;
+            justify-self: left;
+        }
+        body {
+            margin: 0;
+            font-family: "Quicksand", sans-serif;
+        }
+
+        .login {
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 80vh;
+        }
+        .form-container {
+            display: grid;
+            grid-template-rows: auto 1fr auto;
+            width: 500px;
+            transform: translateX(-50px);
+            transform: translatey(110px);
+        }
+        .logo{
+          width: 400px;
+          margin-bottom: 48px;
+          justify-self: center;
+          display: none;
+        }
+        .form {
+            display: flex;
+            flex-direction: column;
+        }
+        .label {
+            display: flex;
+            font-size: var(--sm);
+            font-weight: bold;
+            margin-bottom: 4px;
+            z-index: 2;
+        }
+        .input {
+            background-color: var(--text-input-field);
+            border: none;
+            border-radius: 8px;
+            height: 30px;
+            font-size: var(--md);
+            padding: 6px;
+            margin-bottom: 12px;
+            z-index: 2;
+        }
+        .primary-button {
+            background-color: var(--hospital-green);
+            border-radius: 8px;
+            border:none;
+            color: var(--withe);
+            width: 100%;
+            height: 90px;
+            cursor: pointer;
+            font-size: var(--lg);
+            font-weight: bold;
+        }
+        .login-button {
+            margin-top: 84px;
+            margin-bottom: 30px;
+        }
+        .forgot{
+            font-size: var(--md);
+            text-align: center;
+            color: var(--hospital-green);
+            text-decoration: none;
+        }
+        .sign-up {
+            position: absolute;
+            background-color: var(--withe);
+            border-radius: 8px;
+            border: 3px solid var(--hospital-green);
+            color: var(--hospital-green);
+            width: 100%;
+            height: 90px;
+            cursor: pointer;
+            font-size: var(--lg);
+            font-weight: bold;
+        }
+        .second-button {
+            margin-top: 50px;
+            margin-bottom: 30px;
+        }
+    </style>
+    <link rel="stylesheet" href="cel-class4.css">
+</head>
+
+<body>
+    <nav class="nav-1">
+        <img src="/Curso Práctico de Frontend Developer/curso-frontend-developer-practico-main/logos/logo_bota_fora.svg"
+            alt="logo" class="logo-nav">
+    </nav>
+
+    <div class="login">
+        <div class="form-container">
+             <img src="/Curso Práctico de Frontend Developer/curso-frontend-developer-practico-main/logos/logo_bota_fora.svg"
+              alt="logo" class="logo">
+            <form action="" class="form">
+                <label for="email" class="label">Email address</label>
+                <input type="email" id="email" placeholder="camilayukoo@gmail.com" class="input input-email">
+            </form>
+
+            <form action="" class="form">
+                <label for="password" class="label">Password</label>
+                <input type="password" id="password" placeholder="Password" class="input input-password">
+                <input type="submit" value="Log in" class="primary-button login-button" formaction="/">
+                <a class="forgot" href="./class-2.html">Forgot my password</a>
+            </form>
+
+            <form action="./class-4.html" class="second-button">
+                <input type="submit" value="Sing up" class="second-button sign-up">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
